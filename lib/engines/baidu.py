@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import re
 from lib import my_enumerator
 from bs4 import BeautifulSoup
 

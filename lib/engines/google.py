@@ -13,9 +13,9 @@ class Google_enum(my_enumerator.Enumrator_base_threaded):
     '''
     def __init__(self,options,q=None):
         super(Google_enum,self).__init__(options,q=q)
-        self.base_url = 'http://google.answer.run/search?q={}&start={}'
+        self.base_url = 'http://www.answer.run:8080/search?q={}&start={}'
         self.headers = {
-            'Host':'google.answer.run',
+            'Host':'www.answer.run:8080',
             'User-Agent':'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
             'Upgrade-Insecure-Requests':'1',
         }

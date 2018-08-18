@@ -54,6 +54,3 @@ class Baidu_enum(my_enumerator.Enumrator_base_threaded):
                     print  '[-]Baidu: ' + url
             except Exception:
                 pass
-
-if __name__ == '__main__':
-    Baidu_enum()
